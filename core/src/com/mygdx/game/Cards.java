@@ -43,8 +43,7 @@ public static AssetManager manager;
 		image.setBounds(20,30,300,200);
 
 		image.addAction(Actions.sequence(Actions.moveTo(30,200),Actions.rotateBy(300,200)));
-		image.addAction(Actions.sequence(Actions.moveTo(30,200),Actions.rotateBy(300,200)));
-		image.addAction(Actions.sequence(Actions.moveTo(30,200),Actions.rotateBy(300,200)));
+
 
 
 			stage.addActor(image);
